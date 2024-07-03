@@ -1,12 +1,15 @@
-# Template: ts-node-express-mysql-typeorm-template
+# Generic proyect TS
 Repo tipo plantilla para estructuracion de carpetas y dependencias de proyecto 
 
-Se debe crear un archivo .env en la raiz del proyecto con los atributos:  
-**DB_TYPE**= tipo de base de datos; por defecto, ```"postgres"```.\
-**DB_URL**= url de la base de datos.\
-**PORT**= puerto en el que corre el servidor localmente; por defecto, ```1234```.
+Se debe crear un archivo .env en la raiz del proyecto con los atributos: 
+**DB_TYPE** = tipo de db, postgres, mysql, etc...
+**DB_HOST** = localhost 
+**DB_PORT** =5432
+**DB_USER** = usario de la db
+**DB_PASSWORD** = password del user
+**DB_DATABASE**= nombre de la db
 
-Las variables de entorno son cargadas en una clase en config.ts, la cual luego se pasa como argumento a ```AppDataSource``` en data-source.ts.
+
 
 ## Lista de comandos 
 1- Instalar/actualizar dependencias: 
